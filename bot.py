@@ -5,7 +5,7 @@ from telegram.ext import Application, ContextTypes, ChatJoinRequestHandler
 # ВАЖНО: переменные берем из окружения, токен не вшит
 import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_ID = -1001234567890   # подставьте свой числовой ID с минусом, без кавычек
+CHANNEL_ID = -1003775739979   # подставьте свой числовой ID с минусом, без кавычек
 
 async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
     join_request = update.chat_join_request
